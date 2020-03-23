@@ -1,0 +1,118 @@
+<! Doctype html>
+
+<html>
+	<head>
+		<link rel="stylesheet" href="style.css">
+		<link rel = "stylesheet" href = "https://fonts.googleapis.com/css?family=Tangerine" >
+		<title>Mon site web </title>
+	</head>
+	
+	<body>
+		<header>
+			<div class="classe">
+				<h1>Make your Choice<span class="bleu">.</span></h1>
+				<nav>
+					<ul>
+						<li><a href="#accueil">Accueil</a></li>
+						<li><a href="#produits">Produits</a></li>
+						<li><a href="#boutiques">Boutiques</a></li>
+						<li><a href="#contact">Contacts</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		
+		<section id="accueil">
+			<div class="classe">
+				<h2><strong>organisez vos achats</strong></h2>
+				<a href="#" class="button_1">START</a>
+			</div>
+		</section>
+		<section id="produits">
+			<div class="classe">
+				<ul>
+					<li id="meches_1">
+						<h4>Mèches de couleurs noirs</h4>
+						<p>Confiez-nous vos rêves d'évasion : en famille ou entre amis, nous trouverons la formule qui comblera vos attentes.</p>
+					</li>
+					<li id="meches_2">
+						<h4>Mèches de couleurs rouges</h4>
+						<p>Bénéficiez de l'expertise de nos spécialistes de chaque destination, ils vous accompagnent dans la réalisation de votre voyage.</p>
+					</li>					
+					<div class="clear">
+					
+					</div>
+				</ul>
+			</div>
+		</section>
+		<section id="boutiques">
+			<div class="classe">
+				<article style="background-image:url(image/article-image-1.jpg)">
+					<div class="par_dessus">
+						<h4>visitez les produits amazon</h4>
+						<p><small>Offrez le meilleur à ceux que vous aimez et partagez des moments fabuleux !</small></p>
+						<a class="button_2" href="#">plus d'infos</a>
+					</div>					
+				</article>	
+
+				<article style="background-image:url(image/article-image-2.jpg)">
+					<div class="par_dessus">
+						<h4>visitez les produits c-discount</h4>
+						<p><small>Parfois un peu d'évasion serait le bienvenue et ferait le plus grand bien !</small></p>
+						<a class="button_2" href="#">plus d'infos</a>
+					</div>					
+				</article>	
+				<div class="clear">					
+				</div>
+			</div>
+		</section>
+		<section id="contact">
+			<div class="classe">
+				<h3>contactez-nous</h3>
+				<p>Chez Travel Agency nous savons que voyager est 
+				une aventure humaine mais également un engagement 
+				financier important pour vous. C'est pourquoi 
+				nous mettons un point d'honneur à prendre en compte chacune 
+				de vos attentes pour vous aider dans la préparation de votre séjour,
+				circuit ou voyage sur mesure.</p>
+			
+				<fieldset>
+				<legend style="text-align:center"><strong>Information Personnelle</strong></legend>
+				<form>					
+						
+						<div class="form_1">
+							<label for="monsieur">Monsieur</label><br>
+								<input id= "monsieur" type="radio" value="Monsieur" name="sexe"><br>
+							<label for="madame">Madame</label><br>
+								<input id= "madame" type="radio" value="Madame" name="sexe"><br>					
+							<label for="nom">Nom</label><br>			
+								<input id= "nom" type="text" name="nom">
+								<br>				
+							<label for="prenom">Prenom</label><br>
+								<input id= "prenom" type="text" name="prenom">
+								<br>
+							<label for="email">Email</label><br>
+								<input id= "email" type="email" name="email" required>
+									<br><br>					
+						</div>
+						
+						<div class="form_2">
+						<label for="message">Ajouter un message</label><br>
+							<textarea id= "message" cols="50" rows="10" placeholder="Message..."></textarea>					
+						<label for="ok"></label><br>
+							<input id= "ok" type="submit" value="ok" class="button_3">				
+						</div>
+				</form>
+				</fieldset>
+			
+			</div>
+		</section>
+		
+		<footer id="footer">
+			<div class="classe">
+				<h1>Make your Choice<span class="bleu">.</span></h1>
+				<div class="Copyright">Copyright © 2019 Tous droits réservés.</div>
+			</div>
+		</footer>
+	</body>
+</html>
